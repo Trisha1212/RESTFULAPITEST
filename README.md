@@ -46,6 +46,6 @@ yarn test
 
 ### Folder structure
 
-Tests -  The tests will call functions from the API and Payload areas of the framework and be responsible for asserting responses.
-API -  HTTP requests are grouped based on the resource you are calling so if there are two resources called if the request changes it requires a single change to propagate through the framework.
-Payloads - Payloads that are required for requests and responses are stored in this area. The idea is similar to the API area in that one class is responsible for one payload that may be called multiple times. Again, this means if the payload changes it requires a single change to propagate through the framework.
+- Tests -  The tests will call functions from the API and Payload areas of the framework and be responsible for asserting responses.
+- API -  HTTP requests are grouped based on the resource you are calling so if there are two resources called if the request changes it requires a single change to propagate through the framework.
+- Payloads - Payloads that are required for requests and responses are stored in this area. The idea is similar to the API area in that one class is responsible for one payload that may be called multiple times. Again, this means if the payload changes it requires a single change to propagate through the framework.
