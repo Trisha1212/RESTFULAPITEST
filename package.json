@@ -1,0 +1,27 @@
+{
+  "name": "apichecks",
+  "version": "1.0.0",
+  "description": "Restful apichecks using mocha , supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --timeout 55000 "
+  },
+  "keywords": [
+    "RestFul",
+    "API",
+    "Testing",
+    "Webservices",
+    "testing",
+    "API",
+    "testing"
+  ],
+  "author": "Trisha Chetani",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0",
+    "mocha-param": "^1.0.2",
+    "supertest": "^3.0.0",
+    "supertest-as-promised": "^4.0.2"
+  }
+}
